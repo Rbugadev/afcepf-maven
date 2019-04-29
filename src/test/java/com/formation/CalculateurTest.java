@@ -23,5 +23,10 @@ public class CalculateurTest {
 	public void multTest() {
 		assertEquals(6, calcul.mult(2, 3), "Multiply not ok!");
 	}
+	
+	@Test
+	public void divTest() {
+		assertEquals(6, calcul.div(15, 3), "Multiply not ok!");
+	}
 
 }
