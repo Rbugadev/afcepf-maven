@@ -26,7 +26,7 @@ public class CalculateurTest {
 	
 	@Test
 	public void divTest() {
-		assertEquals(6, calcul.div(15, 3), "Multiply not ok!");
+		assertEquals(5, calcul.div(15, 3), "Multiply not ok!");
 	}
 
 }
